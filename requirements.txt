@@ -1,0 +1,2 @@
+# Canonical root entry point for the Python backend dependencies.
+-r backend/requirements.txt

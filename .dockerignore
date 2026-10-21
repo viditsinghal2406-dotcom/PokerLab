@@ -1,0 +1,12 @@
+.git
+.venv
+pokerlabs
+frontend/node_modules
+frontend/dist
+backend/pokerlab.db
+frontend/test-results
+*.db
+*.coverage
+screenshots
+*.pyc
+__pycache__

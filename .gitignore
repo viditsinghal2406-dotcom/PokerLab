@@ -1,0 +1,40 @@
+# Python environments and caches
+pokerlabs/
+.venv/
+.phase11-clean-env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# Local configuration and data
+.env
+*.db
+*.db-shm
+*.db-wal
+backend/*.db
+design-context.txt
+data/exports/*
+!data/exports/.gitkeep
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Tool/editor files
+.vscode/
+# Environment examples: keep the template, ignore real configs
+.env.*
+!.env.example
+
+# Other generated files
+.DS_Store
+Thumbs.db
